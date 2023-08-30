@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tab</title>
+	<script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+	<script type="text/javascript">
+		function initViz() {
+	    var containerDiv = document.getElementById("vizContainer"),
+	    url = "https://eu-west-1a.online.tableau.com/t/revenue/views/UasinGishu/Sheet1?:origin=card_share_link&:embed=n";
+
+	    var viz = new tableau.Viz(containerDiv, url);
+	}
+		
+	</script>
+</head>
+
+<body onload="initViz();">
+
+<div id="vizContainer"></div>
+
+</body>
+</html>
