@@ -76,7 +76,7 @@ else
                   $curl_post_data = array(
                           //Fill in the request parameters with valid values
                          'partnerID' =>356,
-                         'apikey' => '5d2c1a9627a94',
+                         'apikey' => 'xxxxxxxxxxxxxx',
                          'mobile' => $row2[2],
                          'message' => $sms,
                          'shortcode' => 'INFOTEXT',
